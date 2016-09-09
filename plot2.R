@@ -25,7 +25,7 @@ powerDF$DateTime = strptime(powerDF$DateTime, "%d/%m/%Y %H:%M:%S")
 
 # Enforce that this script will generate a 1x1 panel of plots
 # With RStudio, other scripts setting mfrow affects this one
-par(mfrow = c(1,1))
+par(mfrow = c(1,1)) 
 
 plot(powerDF$DateTime, 
      powerDF$Global_active_power, 

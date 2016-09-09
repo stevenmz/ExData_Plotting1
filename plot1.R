@@ -15,7 +15,7 @@ powerDF = read.table("data/household_power_consumption.txt",
                      nrows = 2879, #read till the last entry of Feb-2-2007
                      colClasses = columnTypes,
                      col.names = columnNames)
-
+ 
 # Enforce that this script will generate a 1x1 panel of plots
 # With RStudio, other scripts setting mfrow affects this one
 par(mfrow = c(1,1))

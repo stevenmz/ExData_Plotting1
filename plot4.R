@@ -25,7 +25,7 @@ powerDF$DateTime = strptime(powerDF$DateTime, "%d/%m/%Y %H:%M:%S")
 
 
 png(file="plot4.png", width=480, height=480)
-
+ 
 par(mfrow = c(2,2))
 
 plot(powerDF$DateTime, 
